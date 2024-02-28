@@ -15,7 +15,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 """Data Collection and Pre-Processing"""
 
 # Loading the data from csv file to pandas dataframe
-anime_data = pd.read_csv('/content/anime.csv')
+anime_data = pd.read_csv('anime.csv')
 
 # Printing the first five rows of the data frame
 anime_data.head()
